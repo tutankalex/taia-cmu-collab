@@ -4,7 +4,7 @@ let
   # provides "echo-shortcuts"
   nix_shortcuts = import (pkgs.fetchurl {
     url = "https://raw.githubusercontent.com/whacked/setup/refs/heads/master/bash/nix_shortcuts.nix.sh";
-    hash = "sha256-jLbvJ52h12eug/5Odo04kvHqwOQRzpB9X3bUEB/vzxc=";
+    hash = "sha256-jCOOVA9rILbvYSKI6rAR/OdP1gv6jDFiiTG9FgJEnvg=";
   }) { inherit pkgs; };
 
   pinnedNixpkgs_ngspice_42 = import (fetchTarball {
