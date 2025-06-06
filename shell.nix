@@ -38,6 +38,8 @@ in pkgs.mkShell {
     
     ngspice
     libngspice
+    python3Packages.numpy
+    python3Packages.pandas
   ])
   ++ nix_shortcuts.buildInputs
   ;  # join lists with ++
